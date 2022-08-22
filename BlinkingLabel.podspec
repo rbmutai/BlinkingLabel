@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking'
 
   s.homepage         = 'https://github.com/rbmutai/BlinkingLabel'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -29,7 +27,10 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
-
+  
+  
+  s.swift_versions = '5.0'
+  
   s.source_files = 'BlinkingLabel/Classes/**/*'
   
   # s.resource_bundles = {

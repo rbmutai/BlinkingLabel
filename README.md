@@ -22,7 +22,7 @@ pod 'BlinkingLabel'
 
 ## Author
 
-5929341, rbmutai@gmail.com
+Robert Mutai, rbmutai@gmail.com
 
 ## License
 
